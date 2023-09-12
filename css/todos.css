@@ -1,0 +1,25 @@
+@import "../css/common.css";
+@import "../css/style.css";
+
+.todos__card {
+  cursor: pointer;
+  padding: 20px 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .todos__title {
+    color: #3b71ca;
+    font-size: 18px;
+  }
+}
+
+.done {
+  color: green;
+}
+
+.not-done {
+  color: red;
+}
+
